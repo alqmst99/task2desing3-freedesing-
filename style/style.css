@@ -158,3 +158,19 @@ ul:hover{
     color: white;
    background: black;
 }
+.page {
+    animation-duration: 3s;
+    animation-name: zoom2;
+}
+
+@keyframes zoom2 {
+    from {
+        transform: scale(0);
+        width: 0%
+    }
+
+    to {
+        transform: scale(1);
+        width: 75%;
+    }
+}
