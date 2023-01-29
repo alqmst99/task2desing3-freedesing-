@@ -1,4 +1,5 @@
 * {
+   
     margin: 0;
     padding: 0;
 }
@@ -42,8 +43,8 @@ h1 {
 .nav {
     padding: 5px;
     height: 25px;
-    border: 5px solid #aa2289;
-    background-color: #aa2289;
+    
+    background: radial-gradient(circle, rgba(196,22,22,1) 25%, rgba(59,229,22,0.6881346288515406) 100%);
 }
 
 .nav-a {
@@ -51,6 +52,7 @@ h1 {
     position: relative;
     display: inline-block;
     left: 75%;
+   
 }
 
 .nons {
@@ -58,7 +60,8 @@ h1 {
     margin-left: 15px;
     border: 2px solid;
     border-radius: 15px;
-    background: #238565;
+    background: radial-gradient(circle, rgba(22,196,26,1) 25%, rgba(229,22,22,1) 100%);
+    
 }
 
 .select {
@@ -97,8 +100,20 @@ ul {
    ;
     text-align: center;
 }
-
-
+.rights{
+    display: inline-block;
+    font-size: 25px;
+    font-family: sans-serif;
+    margin-top: 25px;
+    margin-left: 5%;
+}
+.contact{
+    display: inline-block;
+    position: relative;
+    left: 35%;
+    font-size: 25px;
+    font-family: sans-serif;
+}
 
 
  h1 {
@@ -173,4 +188,20 @@ ul:hover{
         transform: scale(1);
         width: 75%;
     }
+}
+
+.nons:hover {
+    animation-duration: 3s;
+    animation-name: tira;
+}
+
+@keyframes tira {
+    from {
+       background:   radial-gradient(circle, rgba(196,22,22,1) 25%, rgba(59,229,22,0.6881346288515406) 100%);
+    }
+
+    to {
+       background:   radial-gradient(circle, rgb(25, 22, 196) 25%, rgb(229, 22, 191) 100%);
+       color: chartreuse;
+}
 }
