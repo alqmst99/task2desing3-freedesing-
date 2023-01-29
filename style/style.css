@@ -44,7 +44,7 @@ h1 {
     padding: 5px;
     height: 25px;
     
-    background: radial-gradient(circle, rgba(196,22,22,1) 25%, rgba(59,229,22,0.6881346288515406) 100%);
+    background: radial-gradient(circle, rgb(74, 71, 71) 25%, rgba(0, 0, 0, 0.688) 100%);
 }
 
 .nav-a {
@@ -60,13 +60,11 @@ h1 {
     margin-left: 15px;
     border: 2px solid;
     border-radius: 15px;
-    background: radial-gradient(circle, rgba(22,196,26,1) 25%, rgba(229,22,22,1) 100%);
-    
+    background: radial-gradient(circle, rgba(138,121,181,1) 25%, rgba(125,77,77,1) 100%);
 }
 
-.select {
-    background: #658523;
-}
+
+
 
 .events {
 
@@ -197,7 +195,7 @@ ul:hover{
 
 @keyframes tira {
     from {
-       background:   radial-gradient(circle, rgba(196,22,22,1) 25%, rgba(59,229,22,0.6881346288515406) 100%);
+        background: radial-gradient(circle, rgba(138,121,181,1) 25%, rgba(125,77,77,1) 100%);
     }
 
     to {
