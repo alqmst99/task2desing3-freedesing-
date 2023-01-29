@@ -58,7 +58,6 @@ h1 {
 .nons {
     padding: 10px;
     margin-left: 15px;
-    border: 2px solid;
     border-radius: 15px;
     background: radial-gradient(circle, rgba(138,121,181,1) 25%, rgba(125,77,77,1) 100%);
 }
